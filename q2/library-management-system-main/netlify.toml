@@ -1,6 +1,7 @@
 [build]
+  base = "q2/library-management-system-main"
   command = "bash netlify_build.sh"
-  publish = "build/web"
+  publish = "q2/library-management-system-main/build/web"
 
 [build.environment]
   FLUTTER_VERSION = "3.22.0"
